@@ -1,0 +1,54 @@
+/* 탭 컨테이너 */
+.tab_wrap {
+  width: 100%;
+}
+
+/* 탭 리스트 */
+.tab_wrap .tab_list {
+  display: flex;
+  border-bottom: 2px solid var(--bg-color); /* colors.css 변수 활용 */
+  gap: 10px;
+}
+
+/* 탭 버튼 */
+.tab_wrap .tab_list .tab_button {
+  padding: 12px 24px;
+  font-weight: var(--fw-medium); /* fonts.css 변수 활용 */
+  color: var(--text-color);
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+  margin-bottom: -2px; /* 리스트 보더와 겹치게 */
+}
+
+/* 마우스 호버 및 포커스(키보드 접근) */
+.tab_wrap .tab_list .tab-button:hover,
+.tab_wrap .tab_list .tab-button:focus {
+  color: var(--primary-color);
+  outline: 2px dashed var(--primary-color);
+  outline-offset: -4px;
+}
+
+/* 활성화 상태 (aria-selected="true"와 연동) */
+.tab_wrap .tab_list .tab_button.active,
+.tab_wrap .tab_list .tab_button[aria-selected="true"] {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+  font-weight: var(--fw-bold);
+}
+
+/* 탭 패널 */
+.tab_wrap .tab_panel {
+  padding: 20px;
+  background-color: var(--white);
+  display: none; /* 기본적으로 숨김 */
+}
+
+/* 패널 활성화 상태 */
+.tab_wrap .tab_panel.active {
+  display: block;
+}
+
+/* 포커스 시 외곽선 처리 (접근성) */
+.tab_wrap .tab_panel:focus {
+  outline: 1px solid var(--primary-color);
+}
