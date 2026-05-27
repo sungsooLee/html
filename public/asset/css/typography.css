@@ -1,0 +1,261 @@
+/* display */
+.display_large_b {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.display_medium_b {
+  font-weight: var(--font-weight-bold);
+  font-size: 3rem;
+}
+
+.display_medium_l {
+  font-weight: var(--font-weight-regular);
+  font-size: 3rem;
+}
+
+.display_small_b {
+  font-weight: var(--font-weight-bold);
+  font-size: 2.6rem;
+}
+
+.display_small_l {
+  font-weight: var(--font-weight-regular);
+  font-size: 2.6rem;
+}
+
+/* title */
+.title_h1 {
+  font-weight: bold;
+  font-size: 2.2rem;
+  letter-spacing: 0;
+}
+
+.title_h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  letter-spacing: 0;
+}
+
+.title_h3 {
+  font-weight: bold;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+}
+
+/* body */
+.body_xlarge {
+  font-weight: var(--font-weight-regular);
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.body_large_b {
+  font-weight: bold;
+  font-size: 1.7rem;
+  letter-spacing: -0.5px;
+}
+
+.body_large_sb {
+  font-weight: var(--font-weight-semibold);
+  font-size: 1.7rem;
+  letter-spacing: -0.5px;
+}
+
+.body_large_m {
+  font-weight: var(--font-weight-medium);
+  font-size: 1.7rem;
+  letter-spacing: -0.5px;
+}
+
+.body_large_r {
+  font-weight: var(--font-weight-regular);
+  font-size: 1.7rem;
+  letter-spacing: -0.5px;
+}
+
+.body_medium_b {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.body_medium_sb {
+  font-weight: var(--font-weight-semibold);
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.body_medium_m {
+  font-weight: var(--font-weight-medium);
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.body_medium_r {
+  font-weight: var(--font-weight-regular);
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.body_small_b {
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+.body_small_sb {
+  font-weight: var(--font-weight-semibold);
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+.body_small_m {
+  font-weight: var(--font-weight-medium);
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+.body_small_r {
+  font-weight: normal;
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+.body_xsmall_b {
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: -0.5px;
+}
+
+.body_xsmall_m {
+  font-weight: var(--font-weight-medium);
+  font-size: 1.2rem;
+  letter-spacing: -0.5px;
+}
+
+.body_xsmall_r {
+  font-weight: normal;
+  font-size: 1.2rem;
+  letter-spacing: -0.5px;
+}
+
+.body_xxsmall_b {
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: -0.5px;
+}
+
+.body_xxsmall_m {
+  font-weight: var(--font-weight-medium);
+  font-size: 1.1rem;
+  letter-spacing: -0.5px;
+}
+
+.body_xxsmall_r {
+  font-weight: normal;
+  font-size: 1.1rem;
+  letter-spacing: -0.5px;
+}
+
+/* input */
+.input_large {
+  font-weight: bold;
+  font-size: 1.6rem;
+  letter-spacing: -0.5px;
+}
+
+.input_medium {
+  font-weight: normal;
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+/* button */
+.button_large {
+  font-weight: bold;
+  font-size: 1.7rem;
+  letter-spacing: -0.5px;
+}
+
+.button_large_txt {
+  font-weight: normal;
+  font-size: 1.6rem;
+  letter-spacing: -0.5px;
+  text-decoration: underline;
+}
+
+.button_medium {
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+.button_medium_txt {
+  font-weight: normal;
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+  text-decoration: underline;
+}
+
+.button_small {
+  font-weight: normal;
+  font-size: 1.2rem;
+  letter-spacing: -0.5px;
+}
+
+/* number */
+.number_large {
+  font-weight: bold;
+  font-size: 2.8rem;
+  letter-spacing: -0.5px;
+}
+
+.number_medium {
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.number_small {
+  font-weight: bold;
+  font-size: 1.8rem;
+  letter-spacing: -0.5px;
+}
+
+/* text */
+.large_b_sentence {
+  font-weight: bold;
+  font-size: 1.7rem;
+  letter-spacing: -0.5px;
+}
+
+.large_r_sentence {
+  font-weight: var(--font-weight-regular);
+  font-size: 1.7rem;
+  letter-spacing: -0.5px;
+}
+
+.medium_b_sentence {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.medium_r_sentence {
+  font-weight: var(--font-weight-regular);
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.small_b_sentence {
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+.small_r_sentence {
+  font-weight: var(--font-weight-regular);
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
